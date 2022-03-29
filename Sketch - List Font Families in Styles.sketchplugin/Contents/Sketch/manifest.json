@@ -1,0 +1,23 @@
+{
+    "name": "Sketch - List Font Families in Styles",
+    "description": "List all the font families in use in your style list",
+    "version": "1.0",
+    "author": "Matteo Gratton",
+    "authorEmail": "icona79@gmail.com",
+    "homepage": "",
+    "commands": [{
+        "script": "script.js",
+        "name": "🔤 Sketch - List Font Families in Styles",
+        "handlers": {
+            "run": "onRun"
+        },
+        "identifier": "com.bohemiancoding.sketch.runscriptidentifier"
+    }],
+    "menu": {
+        "title": "Sketch - List Font Families in Styles",
+        "items": ["com.bohemiancoding.sketch.runscriptidentifier"],
+        "isRoot": true
+    },
+    "identifier": "com.example.sketch.50311bfb-9941-460d-88cf-02dcc8fe9a59",
+    "icon": "icon.png"
+}
